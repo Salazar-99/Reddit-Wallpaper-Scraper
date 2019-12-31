@@ -1,0 +1,4 @@
+#Cronjob for running this script every day at noon
+#Add this line to your user crontab with crontab -e
+#Replace /path/to/script with your path to the main.py script
+0 12 * * * $(which python3) /path/to/script
