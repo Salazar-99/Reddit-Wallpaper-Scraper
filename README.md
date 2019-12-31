@@ -17,7 +17,10 @@ User Settings > Privacy & Security > Manage Third-Party App Authorization and cr
 with the ```client_id``` and ```secret_key```. The user_agent is the name you specified for your app.
 
 The ```crontab.txt``` file contains a template for a cronjob to run the script every day at noon.
-This can of course be modified to any desired interval. 
+This can of course be modified to any desired interval.
+
+Future development will include a "smart" resize feature to maintain aspect ratio of downloaded images
+while still shrinking them down to fit on the display in their entirety.
 
 
 
